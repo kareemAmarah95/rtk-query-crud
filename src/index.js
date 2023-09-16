@@ -5,11 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ApiProvider } from "@reduxjs/toolkit/query/react";
 import { apiSlice } from "./features/api/apiSlice";
-const jsonServer = require("../data/db.json");
-const server = jsonServer.create();
-const router = jsonServer.router("../data/db.json");
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 8080;
+// const jsonServer = require("./data/db.json");
+// const server = jsonServer.create();
+// const router = jsonServer.router("./data/db.json");
+// const middlewares = jsonServer.defaults();
+// const port = process.env.PORT || 8080;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
